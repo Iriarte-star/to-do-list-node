@@ -1,70 +1,61 @@
-/* styles.css */
-
+/* Estilos CSS para el diseño responsivo */
 body {
-  background-color: #f2f2f2;
   font-family: Arial, sans-serif;
+  background-image:url(./mountain.jpg);
+  background-size: cover;
+  background-repeat:no-repeat ;
+  background-position:center center ;
+  color: #333;
+  height: 100vh;
 }
 
 h1 {
-  color: #ff6f00;
   text-align: center;
-  margin-top: 40px;
+  color: #007bff;
 }
 
 form {
-  margin: 20px auto;
-  width: 80%;
-  display: flex;
-  justify-content: center;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 input[type="text"] {
+  width: 100%;
   padding: 10px;
-  border: none;
-  border-radius: 5px;
-  margin-right: 10px;
-  width: 200px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
 
-input[type="text"]:focus {
-  outline: none;
-  box-shadow: 0 0 5px #ff6f00;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: #ff6f00;
-  color: #ffffff;
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #ff8f00;
+button[type="submit"]:hover {
+  background-color: #0056b3;
 }
 
 ul {
-  list-style: none;
-  margin: 0;
+  list-style-type: none;
   padding: 0;
 }
 
 li {
-  background-color: #ffffff;
   padding: 10px;
-  border-radius: 5px;
+  background-color: #fff;
   margin-bottom: 10px;
+  border-radius: 3px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
-li .titulo {
-  color: #ff6f00;
-  font-weight: bold;
-}
-
-li .descripcion {
-  color: #333333;
-}
-
-  
